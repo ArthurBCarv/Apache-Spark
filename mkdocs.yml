@@ -1,0 +1,20 @@
+site_name: "Projeto Spark: Delta Lake e Apache Iceberg"
+site_description: "Documentação de um projeto de Engenharia de Dados com Spark, Delta Lake e Iceberg"
+site_author: "Lucas Gaspar de Azevedo e Luiz Arthur Barros de Carvalho"
+site_url: "https://ArthurBCarv.github.io/project-spark-data/"
+repo_name: "Apache-Spark"
+repo_url: "https://github.com/ArthurBCarv/Apache-Spark"
+
+# Configurações úteis para publicação com: uv run mkdocs gh-deploy
+use_directory_urls: true
+strict: false
+
+theme:
+  name: material
+  language: pt-BR
+
+nav:
+  - Home: index.md
+  - Apache Spark: spark.md
+  - Delta Lake: delta.md
+  - Apache Iceberg: iceberg.md
